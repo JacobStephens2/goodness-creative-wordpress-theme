@@ -31,7 +31,12 @@ require 'front-page-header.php';
 		<div class="navigation">
 
 			<li class="menu-list">ABOUT</li>
-			<li class="menu-list">PORTFOLIO</li>
+			<div class="dropdown">
+				<li class="menu-list dropbtn">PORTFOLIO</li>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+				</div>
+			</div>
 			<li class="menu-list">CLIENTS</li>
 			<li class="menu-list">CONTACT</li>
 

@@ -1,0 +1,6 @@
+{
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all"
+}

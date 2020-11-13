@@ -1,0 +1,11 @@
+/* Styles for the footer widgetized area */
+
+.footer-widget-area {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.footer-widgets-area * {
+	min-width: 0;
+}

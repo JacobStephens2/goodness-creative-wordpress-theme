@@ -1,0 +1,15 @@
+{
+  "theme": {
+    "slug": "goodness-creative",
+    "name": "Goodness Creative",
+    "author": "Goodness Creative"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "goodness-creative.local",
+      "bypassPort": "8181",
+      "https": false
+    }
+  }
+}

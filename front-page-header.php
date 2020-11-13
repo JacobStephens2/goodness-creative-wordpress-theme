@@ -64,6 +64,15 @@ function MM_swapImage() { //v3.0
 	var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
 	if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
+function expandPortfolio() {
+	document.getElementById("portfolio").innerHTML = "PORTFOLIO&ensp;<a height='20px' width='30px' href='stewardgoods.com'>MAGAZINES&ensp;</a><a href='stewardgoods.com'>BOOKS&ensp;</a><a href='stewardgoods.com'>WEBSITES&ensp;</a><a href='stewardgoods.com'>OTHER</a>";
+}
+
+function shrinkPortfolio() {
+	document.getElementById("portfolio").innerHTML = "PORTFOLIO";
+}
+
 </script>
 
 <?php wp_head(); ?>

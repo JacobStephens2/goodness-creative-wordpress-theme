@@ -13,16 +13,6 @@ require 'front-page-header.php';
 
 ?>
 
-<body onload="MM_preloadImages(
-	'/wp-content/themes/wprig-2.0.1/assets/images/about2.gif',
-	'/wp-content/themes/wprig-2.0.1/assets/images/clients2.gif',
-	'/wp-content/themes/wprig-2.0.1/assets/images/book_list2.gif',
-	'/wp-content/themes/wprig-2.0.1/assets/images/awards2.gif',
-	'/wp-content/themes/wprig-2.0.1/assets/images/portfolio02.gif',
-	'/wp-content/themes/wprig-2.0.1/assets/images/books_roll.gif',
-	'/wp-content/themes/wprig-2.0.1/assets/images/stamps_roll.gif'
-)">
-
 <div class="container">
 
 	<div class="header">
@@ -31,12 +21,7 @@ require 'front-page-header.php';
 		<div class="navigation">
 
 			<li class="menu-list">ABOUT</li>
-			<div class="dropdown">
-				<li class="menu-list dropbtn">PORTFOLIO</li>
-				<div class="dropdown-content">
-					<a href="#">Link 1</a>
-				</div>
-			</div>
+			<li id="portfolio" class="menu-list" onmouseover="expandPortfolio()" onmouseout="shrinkPortfolio()" width="106" height="24">PORTFOLIO</li>
 			<li class="menu-list">CLIENTS</li>
 			<li class="menu-list">CONTACT</li>
 
@@ -44,7 +29,7 @@ require 'front-page-header.php';
 
 	<div class="title">
 		<a href="index.html">
-			<span class="margaretbauer">MELODEE STEPHENS&nbsp;|&nbsp;</span><span class="graphicdesign">Graphic Design</span></a></div></div>
+			<span class="margaretbauer">MELODEE STEPHENS&ensp;|&ensp;</span><span class="graphicdesign">Graphic Design</span></a></div></div>
 
 
 </div>

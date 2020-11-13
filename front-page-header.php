@@ -25,6 +25,14 @@ namespace WP_Rig\WP_Rig;
 		<script>document.documentElement.classList.remove( 'no-js' );</script>
 		<?php
 	}
+
+	wp_enqueue_style(
+		'wp-rig-ronnia-font',
+		'https://use.typekit.net/xys2trz.css',
+		array(),
+		true
+	);
+
 	wp_enqueue_script(
 		'wp-rig-typekit',
 		'//use.typekit.net/ztu8mfu.js',

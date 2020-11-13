@@ -59,7 +59,6 @@ blockquote {
 }
 
 @media (--content-query) {
-
 	.entry-content > blockquote {
 		margin-left: auto;
 	}

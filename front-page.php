@@ -21,7 +21,9 @@ require 'front-page-header.php';
 		<div class="navigation">
 
 			<li class="menu-list">ABOUT</li>
-			<li id="portfolio" class="menu-list" onmouseover="expandPortfolio()" onmouseout="shrinkPortfolio()" width="106" height="24">PORTFOLIO</li>
+			<div class="dropdown">
+				<li id="portfolio" class="menu-list" onmouseover="expandPortfolio()" onmouseout="shrinkPortfolio()" width="106" height="24">PORTFOLIO</li>
+			</div>
 			<li class="menu-list">CLIENTS</li>
 			<li class="menu-list">CONTACT</li>
 

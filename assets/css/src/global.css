@@ -888,7 +888,7 @@ a:hover {
 	font-size: 0.62rem;
 	letter-spacing: 2px;
 	line-height: 3.2;
-	width: 400px;
+	/* width: 400px; */
 }
 
 .menu-list:hover {

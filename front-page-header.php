@@ -42,18 +42,6 @@ namespace WP_Rig\WP_Rig;
 	);
 	?>
 
-<script>
-
-function expandPortfolio() {
-	document.getElementById("portfolio").innerHTML = "PORTFOLIO&ensp;<a height='20px' width='30px' href='stewardgoods.com'>MAGAZINES&ensp;</a><a href='stewardgoods.com'>BOOKS&ensp;</a><a href='stewardgoods.com'>WEBSITES&ensp;</a><a href='stewardgoods.com'>OTHER</a>";
-}
-
-function shrinkPortfolio() {
-	document.getElementById("portfolio").innerHTML = "PORTFOLIO";
-}
-
-</script>
-
 <?php wp_head(); ?>
 </head>
 

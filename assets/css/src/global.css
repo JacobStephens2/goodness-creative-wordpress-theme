@@ -651,7 +651,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #f00;
+	color: #c33;
 	text-decoration: none;
 }
 .container {
@@ -679,7 +679,6 @@ a:hover {
 .title {
 	position: absolute;
 	margin-top: 150px;
-	margin-left: 24px;
 	display: block;
 	width: 370px;
 }
@@ -813,7 +812,7 @@ a:hover {
 .dates {
 	font-size: 9pt;
 	line-height: 20pt;
-	color: #f00;
+	color: #c33;
 	letter-spacing: 0.03em;
 }
 .awards1 {
@@ -846,7 +845,7 @@ a:hover {
 .awardsheads {
 	font-size: 9pt;
 	line-height: 16pt;
-	color: #f00;
+	color: #c33;
 }
 .clients {
 	font-size: 9pt;
@@ -866,34 +865,36 @@ a:hover {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
-.content {
+.bar {
 	background-color: #aeaaa9;
 	height: 211px;
 	width: 100vw;
 	padding-left: 24px;
-	z-index: 0;
 }
 .image-position {
 	width: 50%;
 	margin: 0 auto;
 	max-width: 1100px;
 	min-width: 1050px;
-	z-index: 2;
+}
+.about-image-position {
+	width: 50%;
+	margin: 0 auto;
+	width: 960px;
 }
 
 .image-frame {
-	background-color: white;
-	position: relative;
+	background-color: #fff;
 	margin: 0 auto;
-	width: 994px;
+	width: 990px;
 	height: 211px;
-	z-index: 1;
+	padding-left: 10px;
 }
 
 .menu-list {
 	list-style: none;
 	font-family: ronnia, sans-serif;
-	font-weight: 400;
+	font-weight: 800;
 	font-style: normal;
 	font-size: 0.62rem;
 	letter-spacing: 2px;
@@ -903,7 +904,7 @@ a:hover {
 .dropdown-list {
 	list-style: none;
 	font-family: ronnia, sans-serif;
-	font-weight: 400;
+	font-weight: 800;
 	font-style: normal;
 	font-size: 0.62rem;
 	letter-spacing: 2px;
@@ -934,4 +935,27 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+#primary h2 {
+	font-weight: 800;
+	list-style: none;
+	font-family: ronnia, sans-serif;
+	font-style: normal;
+	font-size: 0.62rem;
+	letter-spacing: 2px;
+	line-height: 3.2;
+	color: #c33;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-size: 0.9rem;
+	line-height: 1.37rem;
+	color: #999;
+	letter-spacing: 0.5px;
 }

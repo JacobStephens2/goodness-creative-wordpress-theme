@@ -25,6 +25,22 @@ namespace WP_Rig\WP_Rig;
 		<script>document.documentElement.classList.remove( 'no-js' );</script>
 		<?php
 	}
+
+	wp_enqueue_style(
+		'wp-rig-ronnia-font',
+		'https://use.typekit.net/xys2trz.css',
+		array(),
+		true
+	);
+
+	wp_enqueue_script(
+		'wp-rig-typekit',
+		'//use.typekit.net/ztu8mfu.js',
+		array(),
+		true,
+		false
+	);
+
 	?>
 
 	<?php wp_head(); ?>
@@ -36,10 +52,38 @@ namespace WP_Rig\WP_Rig;
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<?php get_template_part( 'template-parts/header/custom_header' ); ?>
+		<?php //get_template_part( 'template-parts/header/custom_header' ); ?>
 
-		<?php get_template_part( 'template-parts/header/branding' ); ?>
+		<?php //get_template_part( 'template-parts/header/branding' ); ?>
 
-		<?php get_template_part( 'template-parts/header/navigation' ); ?>
+		<?php //get_template_part( 'template-parts/header/navigation' ); ?>
+
+	<div class="container">
+		<div class="header">
+			<div class="navigation">
+				<li class="menu-list"><a href="http://goodness-creative.local/about">ABOUT</a></li>
+				<div class="dropdown-list dropdown">
+					<a href="http://goodness-creative.local/books" class="red-on-hover">PORTFOLIO</a>
+					<div class="dropdown-content">
+						<a href="http://goodness-creative.local/books" class="red-on-hover">BOOKS&ensp;</a>
+						<a href="http://goodness-creative.local/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
+						<a href="#" class="red-on-hover">WEBSITES&ensp;</a>
+						<a href="#" class="red-on-hover">MORE</a>
+					</div>
+				</div>
+				<li class="menu-list"><a href="#">CLIENTS</a></li>
+				<li class="menu-list"><a href="#">CONTACT</a></li>
+			</div>
+			<div class="title">
+				<a href="http://goodness-creative.local/">
+					<span class="margaretbauer"><?php bloginfo( 'name' ); ?>&ensp;|&ensp;</span>
+					<?php $tagline = get_bloginfo( 'description', 'display'); ?>
+					<span class="graphicdesign"><?php echo $tagline?></span>
+				</a>
+				</div></div>
+			</div>
+		</div>
+	</div>
+
 
 	</header><!-- #masthead -->

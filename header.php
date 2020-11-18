@@ -63,9 +63,9 @@ namespace WP_Rig\WP_Rig;
 			<div class="navigation">
 				<li class="menu-list"><a href="http://goodness-creative.local/about">ABOUT</a></li>
 				<div class="dropdown-list dropdown">
-					<a href="http://goodness-creative.local/books" class="red-on-hover">PORTFOLIO</a>
+					<a href="http://goodness-creative.local/magazines" class="red-on-hover">PORTFOLIO</a>
 					<div class="dropdown-content">
-						<a href="http://goodness-creative.local/books" class="red-on-hover">BOOKS&ensp;</a>
+						<a href="#" class="red-on-hover">BOOKS&ensp;</a>
 						<a href="http://goodness-creative.local/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
 						<a href="#" class="red-on-hover">WEBSITES&ensp;</a>
 						<a href="#" class="red-on-hover">MORE</a>

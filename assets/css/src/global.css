@@ -891,6 +891,13 @@ a:hover {
 	padding-left: 10px;
 }
 
+.sample-frame {
+	margin: 0 auto;
+	width: 990px;
+	height: 211px;
+	padding-left: 10px;
+}
+
 .menu-list {
 	list-style: none;
 	font-family: ronnia, sans-serif;

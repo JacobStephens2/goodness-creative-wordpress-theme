@@ -11,11 +11,10 @@ get_header();
 ?>
 
 <div class="bar">
-	<div class="image-frame" style="padding-left: 0px;">
-		<div class="about-image-position">
-			<img src="http://goodness-creative.local/wp-content/uploads/2020/11/Melodee-1-5-ratio.jpg" height="211" />
-			<img style="padding-left: 10px" src="http://goodness-creative.local/wp-content/uploads/2020/11/Auction18_Invitation_652x211.jpg" height="211" />
-			<img style="padding-left: 7px; padding-right: 2px; float: right;" src="http://goodness-creative.local/wp-content/uploads/2020/11/Jacob-smiling-1-5-zoom.jpg" height="211" />
+	<div class="sample-frame" style="padding-left: 0px;">
+		<div class="image-position">
+			<a href="#"><img src="http://goodness-creative.local/wp-content/uploads/2020/11/wheaton-academy-cover.png" height="211" /></a>
+			<!-- http://goodness-creative.local/magazines/wheaton-academy link when ready -->
 		</div>
 	</div>
 </div>

@@ -19,6 +19,14 @@ get_header();
 wp_rig()->print_styles( 'wp-rig-content' );
 
 ?>
+
+<div class="bar">
+	<div class="sample-frame" style="padding-left: 0px;">
+		<div class="image-position">
+		</div>
+	</div>
+</div>
+
 	<main id="primary" class="site-main">
 		<?php
 		if ( have_posts() ) {

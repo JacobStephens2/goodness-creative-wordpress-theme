@@ -13,8 +13,7 @@ get_header();
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
 		<div class="image-position">
-			<a href="#"><img src="http://goodness-creative.local/wp-content/uploads/2020/11/wheaton-academy-cover.png" height="211" /></a>
-			<!-- http://goodness-creative.local/magazines/wheaton-academy link when ready -->
+			<a href="http://goodness-creative.local/wheaton-academy"><img src="http://goodness-creative.local/wp-content/uploads/2020/11/wheaton-academy-cover.png" height="211" /></a>
 		</div>
 	</div>
 </div>

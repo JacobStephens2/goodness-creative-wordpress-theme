@@ -38,9 +38,40 @@ class Component implements Component_Interface {
 	public function initialize() {
 		add_action( 'wp_enqueue_scripts', [ $this, 'action_enqueue_navigation_script' ] );
 		add_action( 'wp_enqueue_scripts', [ $this, 'action_enqueue_custom_script' ] );
+		add_action( 'wp_enqueue_scripts', [ $this, 'action_enqueue_portfolio_script' ] );
 		add_action( 'wp_print_footer_scripts', [ $this, 'action_print_skip_link_focus_fix' ] );
 		add_filter( 'nav_menu_link_attributes', [ $this, 'filter_nav_menu_link_attributes_aria_current' ], 10, 2 );
 		add_filter( 'page_menu_link_attributes', [ $this, 'filter_nav_menu_link_attributes_aria_current' ], 10, 2 );
+	}
+
+	/**
+	 * Enqueues a script that provides functions for the portfolio pages.
+	 */
+	public function action_enqueue_portfolio_script() {
+
+		// If the AMP plugin is active, return early.
+		if ( wp_rig()->is_amp() ) {
+			return;
+		}
+
+		// Enqueue the portfolio script.
+		wp_enqueue_script(
+			'wp-rig-portfolio',
+			get_theme_file_uri( '/assets/js/portfolio.min.js' ),
+			[],
+			wp_rig()->get_asset_version( get_theme_file_path( '/assets/js/portfolio.min.js' ) ),
+			false
+		);
+		wp_script_add_data( 'wp-rig-portfolio', 'async', true );
+		wp_script_add_data( 'wp-rig-portfolio', 'precache', true );
+		wp_localize_script(
+			'wp-rig-portfolio',
+			'wpRigScreenReaderText',
+			[
+				'expand'   => __( 'Expand child menu', 'wp-rig' ),
+				'collapse' => __( 'Collapse child menu', 'wp-rig' ),
+			]
+		);
 	}
 
 	/**
@@ -53,7 +84,7 @@ class Component implements Component_Interface {
 			return;
 		}
 
-		// Enqueue the navigation script.
+		// Enqueue the custom script.
 		wp_enqueue_script(
 			'wp-rig-custom',
 			get_theme_file_uri( '/assets/js/custom.min.js' ),

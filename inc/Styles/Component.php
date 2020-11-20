@@ -287,6 +287,12 @@ class Component implements Component_Interface, Templating_Component_Interface {
 					return ! post_password_required() && is_singular() && ( comments_open() || get_comments_number() );
 				},
 			],
+			'wp-rig-portfolio'   => [
+				'file'             => 'portfolio.min.css',
+				'preload_callback' => function() {
+					return is_page();
+				},
+			],
 			'wp-rig-content'    => [
 				'file'             => 'content.min.css',
 				'preload_callback' => '__return_true',

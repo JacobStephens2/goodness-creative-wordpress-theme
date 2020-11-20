@@ -1,6 +1,20 @@
 #wa-cover {
-	display: flex;
+	display: inline;
 }
+#wa-cover-preview:hover {
+	cursor: pointer;
+}
+
+#wa-spread1 {
+	display: none;
+}
+#wa-spread1-preview:hover {
+	cursor: pointer;
+}
+
 #wa-spread2 {
 	display: none;
+}
+#wa-spread2-preview:hover {
+	cursor: pointer;
 }

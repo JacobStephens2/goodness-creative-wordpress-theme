@@ -857,7 +857,6 @@ a:hover {
 	position: absolute;
 	letter-spacing: 0.5px;
 	padding-top: 20px;
-	margin-left: 430px;
 	width: 645px;
 }
 .tk-ronnia {
@@ -883,6 +882,13 @@ a:hover {
 	width: 50%;
 	margin: 0 auto;
 	width: 960px;
+}
+
+.frame {
+	margin: 0 auto;
+	width: 990px;
+	height: 211px;
+	padding-left: 10px;
 }
 
 .image-frame {
@@ -967,4 +973,16 @@ p {
 	line-height: 1.37rem;
 	color: #999;
 	letter-spacing: 0.5px;
+}
+
+.wp-block-quote {
+	border-left: 3px solid #999;
+}
+
+.paragraph-width {
+	max-width: 700px;
+}
+
+.entry-content > blockquote {
+	margin-left: 0;
 }

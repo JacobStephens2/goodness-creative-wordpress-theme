@@ -682,8 +682,10 @@ a:hover {
 	display: block;
 	width: 370px;
 }
-.margaretbauer {
+.melodeestephens {
+	font-family: ronnia, sans-serif;
 	letter-spacing: 0.2em;
+	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 10pt;
 	color: #999;

@@ -76,7 +76,7 @@ namespace WP_Rig\WP_Rig;
 			</div>
 			<div class="title">
 				<a href="http://goodness-creative.local/">
-					<span class="margaretbauer"><?php bloginfo( 'name' ); ?>&ensp;|&ensp;</span>
+					<span class="melodeestephens"><?php bloginfo( 'name' ); ?>&ensp;|&ensp;</span>
 					<?php $tagline = get_bloginfo( 'description', 'display'); ?>
 					<span class="graphicdesign"><?php echo $tagline?></span>
 				</a>

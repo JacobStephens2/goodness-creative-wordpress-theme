@@ -19,16 +19,25 @@ get_header();
 		</div>
 	</div>
 
-<main id="primary" class="site-main">
 	<div class="container">
-		<?php
-		while ( have_posts() ) {
-			the_post();
-			get_template_part( 'template-parts/content/entry', get_post_type() );
-		}
-		?>
+		<div class="header">
+			<div class="navigation">
+				<main id="primary" class="site-main">
+					<div class="container">
+						<?php
+						while ( have_posts() ) {
+							the_post();
+							get_template_part( 'template-parts/content/entry', get_post_type() );
+						}
+						?>
+					</div>
+				</main>
+			</div>
+			<div class="title">
+				</div></div>
+			</div>
+		</div>
 	</div>
-</main>
 
 </body>
 </html>

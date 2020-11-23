@@ -71,7 +71,7 @@ namespace WP_Rig\WP_Rig;
 						<a href="#" class="red-on-hover">MORE</a>
 					</div>
 				</div>
-				<li class="menu-list"><a href="#">CLIENTS</a></li>
+				<li class="menu-list"><a href="http://goodness-creative.local/clients">CLIENTS</a></li>
 				<li class="menu-list"><a href="#">CONTACT</a></li>
 			</div>
 			<div class="title">

@@ -877,16 +877,25 @@ a:hover {
 	margin: 0 auto;
 	max-width: 1100px;
 	min-width: 1050px;
+	height: 211px;
 }
 .about-image-position {
 	width: 50%;
-	margin: 0 auto;
-	width: 960px;
+	width: 980px;
+	padding-left: 10px;
+	height: 211px;
 }
 
 .frame {
 	margin: 0 auto;
-	width: 990px;
+	width: 980px;
+	height: 211px;
+	padding-left: 10px;
+	background-color: white;
+}
+.cover-frame {
+	margin: 0 auto;
+	width: 980px;
 	height: 211px;
 	padding-left: 10px;
 }
@@ -985,4 +994,19 @@ p {
 
 .entry-content > blockquote {
 	margin-left: 0;
+}
+
+.melodee-image {
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.jacob-image {
+	padding-left: 4px;
+	background-color: white;
+}
+
+.bar-spread {
+	background-color: #aeaaa9;
 }

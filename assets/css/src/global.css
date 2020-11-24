@@ -1010,3 +1010,22 @@ p {
 .bar-spread {
 	background-color: #aeaaa9;
 }
+
+.nf-error-msg,
+.ninja-forms-req-symbol {
+	color: #c33 !important;
+}
+
+.nf-form-content button,
+.nf-form-content input[type="button"],
+.nf-form-content input[type="submit"] {
+	background: #858585 !important;
+	color: white !important;
+}
+
+.nf-form-content button:hover,
+.nf-form-content input[type="button"]:hover,
+.nf-form-content input[type="submit"]:hover {
+	background: #c33 !important;
+	color: white !important;
+}

@@ -52,11 +52,6 @@ namespace WP_Rig\WP_Rig;
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<?php //get_template_part( 'template-parts/header/custom_header' ); ?>
-
-		<?php //get_template_part( 'template-parts/header/branding' ); ?>
-
-		<?php //get_template_part( 'template-parts/header/navigation' ); ?>
 
 	<div class="container">
 		<div class="header">
@@ -64,21 +59,26 @@ namespace WP_Rig\WP_Rig;
 				<li class="menu-list"><a href="http://goodness-creative.local/about">ABOUT</a></li>
 				<div class="dropdown-list dropdown">
 					<a href="http://goodness-creative.local/magazines" class="red-on-hover">PORTFOLIO</a>
-					<div class="dropdown-content">
-						<a href="#" class="red-on-hover">BOOKS&ensp;</a>
+					<!-- <div class="dropdown-content">
+						<a href="http://goodness-creative.local/books" class="red-on-hover">BOOKS&ensp;</a>
 						<a href="http://goodness-creative.local/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
-						<a href="#" class="red-on-hover">WEBSITES&ensp;</a>
-						<a href="#" class="red-on-hover">MORE</a>
-					</div>
+						<a href="http://goodness-creative.local/websites" class="red-on-hover">WEBSITES&ensp;</a>
+						<a href="http://goodness-creative.local/more" class="red-on-hover">MORE</a>
+					</div> -->
 				</div>
 				<li class="menu-list"><a href="http://goodness-creative.local/clients">CLIENTS</a></li>
-				<li class="menu-list"><a href="#">CONTACT</a></li>
+				<div class="dropdown-list dropdown">
+					<a href="http://goodness-creative.local/contact" class="red-on-hover">CONTACT</a>
+					<div class="dropdown-content">
+						<a href="http://goodness-creative.local/meeting" class="red-on-hover">SCHEDULE MEETING&ensp;</a>
+					</div>
+				</div>
 			</div>
 			<div class="title">
 				<a href="http://goodness-creative.local/">
 					<span class="melodeestephens"><?php bloginfo( 'name' ); ?>&ensp;|&ensp;</span>
 					<?php $tagline = get_bloginfo( 'description', 'display'); ?>
-					<span class="graphicdesign"><?php echo $tagline?></span>
+					<span class="graphicdesign"><?php echo esc_html( $tagline ); ?> </span>
 				</a>
 				</div></div>
 			</div>

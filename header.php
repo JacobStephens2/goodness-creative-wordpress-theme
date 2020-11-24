@@ -56,26 +56,26 @@ namespace WP_Rig\WP_Rig;
 	<div class="container">
 		<div class="header">
 			<div class="navigation">
-				<li class="menu-list"><a href="http://goodness-creative.local/about">ABOUT</a></li>
+				<li class="menu-list"><a href="/about">ABOUT</a></li>
 				<div class="dropdown-list dropdown">
-					<a href="http://goodness-creative.local/magazines" class="red-on-hover">PORTFOLIO</a>
+					<a href="/magazines" class="red-on-hover">PORTFOLIO</a>
 					<!-- <div class="dropdown-content">
-						<a href="http://goodness-creative.local/books" class="red-on-hover">BOOKS&ensp;</a>
-						<a href="http://goodness-creative.local/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
-						<a href="http://goodness-creative.local/websites" class="red-on-hover">WEBSITES&ensp;</a>
-						<a href="http://goodness-creative.local/more" class="red-on-hover">MORE</a>
+						<a href="/books" class="red-on-hover">BOOKS&ensp;</a>
+						<a href="/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
+						<a href="/websites" class="red-on-hover">WEBSITES&ensp;</a>
+						<a href="/more" class="red-on-hover">MORE</a>
 					</div> -->
 				</div>
-				<li class="menu-list"><a href="http://goodness-creative.local/clients">CLIENTS</a></li>
+				<li class="menu-list"><a href="/clients">CLIENTS</a></li>
 				<div class="dropdown-list dropdown">
-					<a href="http://goodness-creative.local/contact" class="red-on-hover">CONTACT</a>
+					<a href="/contact" class="red-on-hover">CONTACT</a>
 					<div class="dropdown-content">
-						<a href="http://goodness-creative.local/meeting" class="red-on-hover">SCHEDULE MEETING&ensp;</a>
+						<a href="/meeting" class="red-on-hover">SCHEDULE MEETING&ensp;</a>
 					</div>
 				</div>
 			</div>
 			<div class="title">
-				<a href="http://goodness-creative.local/">
+				<a href="/">
 					<span class="melodeestephens"><?php bloginfo( 'name' ); ?>&ensp;|&ensp;</span>
 					<?php $tagline = get_bloginfo( 'description', 'display'); ?>
 					<span class="graphicdesign"><?php echo esc_html( $tagline ); ?> </span>

@@ -6,14 +6,16 @@
  *
  * @package wp_rig
  */
+
 namespace WP_Rig\WP_Rig;
+
 get_header();
 ?>
 
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
 		<div class="image-position">
-			<a href="http://goodness-creative.local/wheaton-academy"><img src="http://goodness-creative.local/wp-content/uploads/2020/11/wheaton-academy-cover.png" height="211" /></a>
+			<a href="/wheaton-academy"><img src="/wp-content/uploads/2020/11/wheaton-academy-cover.png" height="211" /></a>
 		</div>
 	</div>
 </div>

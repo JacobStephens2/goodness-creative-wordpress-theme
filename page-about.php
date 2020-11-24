@@ -15,9 +15,9 @@ get_header();
 <div class="bar">
 	<div class="frame" style="padding-left: 0px;">
 		<div class="about-image-position">
-			<img class="bar-spread" src="http://goodness-creative.local/wp-content/uploads/2020/11/spread-landMatters-angled.png" height="211" />
-			<img class="melodee-image" src="http://goodness-creative.local/wp-content/uploads/2020/11/Melodee-1-5-ratio-bw.jpg" height="211" />
-			<img class="jacob-image" src="http://goodness-creative.local/wp-content/uploads/2020/11/Jacob-smiling-1-5-bw.jpg" height="211" />
+			<img class="bar-spread" src="/wp-content/uploads/2020/11/spread-landMatters-angled.png" height="211" />
+			<img class="melodee-image" src="/wp-content/uploads/2020/11/Melodee-1-5-ratio-bw.jpg" height="211" />
+			<img class="jacob-image" src="/wp-content/uploads/2020/11/Jacob-smiling-1-5-bw.jpg" height="211" />
 		</div>
 	</div>
 </div>

@@ -6,13 +6,15 @@
  *
  * @package wp_rig
  */
+
 namespace WP_Rig\WP_Rig;
+
 get_header();
 ?>
 			<div class="bar">
 				<div class="cover-frame">
 					<div class="image-position">
-						<img src="//goodness-creative.local/wp-content/uploads/2020/11/cover-angled-archmerean20-strip.png" width="970" height="211" />
+						<img src="/wp-content/uploads/2020/11/cover-angled-archmerean20-strip.png" width="970" height="211" />
 					</div>
 				</div>
 			</div>

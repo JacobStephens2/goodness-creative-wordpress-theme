@@ -70,7 +70,8 @@ namespace WP_Rig\WP_Rig;
 				<div class="dropdown-list dropdown">
 					<a href="/contact" class="red-on-hover">CONTACT</a>
 					<div class="dropdown-content">
-						<a href="/meeting" class="red-on-hover">SCHEDULE MEETING&ensp;</a>
+						<a href="/meeting" class="red-on-hover">SCHEDULE MEETING&ensp;&ensp;&ensp;</a>
+						<a href="tel:6107802023" class="red-on-hover">CALL MEL AT 610.780.2023</a>
 					</div>
 				</div>
 			</div>

@@ -647,7 +647,7 @@ a img {
 	border: none;
 }
 a {
-	color: #999;
+	color: #858585;
 	text-decoration: none;
 }
 a:hover {
@@ -882,20 +882,19 @@ a:hover {
 .about-image-position {
 	width: 50%;
 	width: 980px;
-	padding-left: 10px;
 	height: 211px;
 }
 
 .frame {
 	margin: 0 auto;
-	width: 980px;
+	width: 970px;
 	height: 211px;
 	padding-left: 10px;
 	background-color: white;
 }
 .cover-frame {
 	margin: 0 auto;
-	width: 980px;
+	width: 970px;
 	height: 211px;
 	padding-left: 10px;
 }
@@ -1028,4 +1027,31 @@ p {
 .nf-form-content input[type="submit"]:hover {
 	background: #c33 !important;
 	color: white !important;
+}
+
+.nf-form-fields-required {
+	display: none;
+}
+
+.nf-form-content label {
+	font-size: 0.9rem !important;
+}
+
+.wp-block-button__link {
+	width: auto;
+	height: 50px;
+	transition: all 0.5s;
+	background-color: #858585;
+	border: 0;
+	font-size: 16px;
+	margin: 0;
+	padding: 18px 12px 6px 12px;
+	border-radius: 3px;
+	cursor: pointer;
+	line-height: 1;
+	box-sizing: border-box;
+}
+
+.wp-block-button__link:hover {
+	background-color: #c33;
 }

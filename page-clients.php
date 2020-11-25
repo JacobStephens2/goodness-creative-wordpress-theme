@@ -12,7 +12,7 @@ get_header();
 			<div class="bar">
 				<div class="cover-frame">
 					<div class="image-position">
-						<img style="background-color: white;" src="//goodness-creative.local/wp-content/uploads/2020/11/ValentinesBoxWrapProof-background-1024x254.png" height="211" />
+						<img style="background-color: white;" src="/wp-content/uploads/2020/11/ValentinesBoxWrapProof-background-1024x254.png" height="211" />
 					</div>
 				</div>
 			</div>

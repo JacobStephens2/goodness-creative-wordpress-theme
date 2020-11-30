@@ -1055,3 +1055,7 @@ p {
 .wp-block-button__link:hover {
 	background-color: #c33;
 }
+
+.pointer:hover {
+	cursor: pointer;
+}

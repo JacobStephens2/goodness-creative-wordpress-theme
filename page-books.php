@@ -11,11 +11,9 @@ get_header();
 ?>
 
 <div class="bar">
-	<div class="image-frame" style="padding-left: 0px;">
-		<div class="about-image-position">
-			<img src="/wp-content/uploads/2020/11/Melodee-1-5-ratio.jpg" height="211" />
-			<img style="padding-left: 10px" src="/wp-content/uploads/2020/11/Auction18_Invitation_652x211.jpg" height="211" />
-			<img style="padding-left: 7px; padding-right: 2px; float: right;" src="/wp-content/uploads/2020/11/Jacob-smiling-1-5-zoom.jpg" height="211" />
+	<div class="sample-frame" style="padding-left: 0px;">
+		<div class="image-position">
+			<a href="/wheaton-academy-book"><img class="pointer" src="/wp-content/uploads/2020/11/wa-historybook-cover-straight-on-300x248.png" height="211" /></a>
 		</div>
 	</div>
 </div>

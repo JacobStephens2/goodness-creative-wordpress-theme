@@ -1,14 +1,12 @@
 <?php
 /**
- * The template for displaying the Wheaton Academy portfolio page
+ * The template for displaying all single posts
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package wp_rig
  */
-
 namespace WP_Rig\WP_Rig;
-
 get_header();
 wp_rig()->print_styles( 'wp-rig-content', 'wp-rig-portfolio' );
 ?>
@@ -16,9 +14,9 @@ wp_rig()->print_styles( 'wp-rig-content', 'wp-rig-portfolio' );
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
 		<div class="image-position">
-			<img id="wa-cover-preview" onclick="showWACover()" src="/wp-content/uploads/2020/11/wheaton-academy-cover-1-267x300.png" height="211" />
-			<img id="wa-spread1-preview" onclick="showWASpread1()" src="/wp-content/uploads/2020/11/wheatonacademy-spread-1-300x216.png" height="211" />
-			<img id="wa-spread2-preview" onclick="showWASpread2()" src="/wp-content/uploads/2020/11/wheatonacademy-spread-2-300x216.png" height="211" />
+			<img id="wa-cover-preview" onclick="showWACover()" src="/wp-content/uploads/2020/11/wa-historybook-cover-straight-on-300x248.png" height="211" />
+			<img id="wa-spread1-preview" onclick="showWASpread1()" src="/wp-content/uploads/2020/11/WAHistoryBook_Mockup-720x460.png" height="211" />
+			<img id="wa-spread2-preview" onclick="showWASpread2()" src="/wp-content/uploads/2020/11/spread-244-245-768x448.png" height="211" />
 		</div>
 	</div>
 </div>

@@ -59,12 +59,12 @@ namespace WP_Rig\WP_Rig;
 				<li class="menu-list"><a href="/about">ABOUT</a></li>
 				<div class="dropdown-list dropdown">
 					<a href="/magazines" class="red-on-hover">PORTFOLIO</a>
-					<!-- <div class="dropdown-content">
+					<div class="dropdown-content">
 						<a href="/books" class="red-on-hover">BOOKS&ensp;</a>
 						<a href="/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
 						<a href="/websites" class="red-on-hover">WEBSITES&ensp;</a>
 						<a href="/more" class="red-on-hover">MORE</a>
-					</div> -->
+					</div>
 				</div>
 				<li class="menu-list"><a href="/clients">CLIENTS</a></li>
 				<div class="dropdown-list dropdown">

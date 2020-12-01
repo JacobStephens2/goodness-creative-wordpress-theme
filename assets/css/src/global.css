@@ -879,6 +879,11 @@ a:hover {
 	min-width: 1050px;
 	height: 211px;
 }
+.web-bar-position {
+	width: 1100px;
+	margin: 0 auto;
+	height: 211px;
+}
 .about-image-position {
 	width: 50%;
 	width: 980px;
@@ -902,14 +907,14 @@ a:hover {
 .image-frame {
 	background-color: #fff;
 	margin: 0 auto;
-	width: 990px;
+	width: 1100px;
 	height: 211px;
 	padding-left: 10px;
 }
 
 .sample-frame {
 	margin: 0 auto;
-	width: 990px;
+	width: 1100px;
 	height: 211px;
 	padding-left: 10px;
 }

@@ -14,8 +14,10 @@ get_header();
 
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
-		<div class="image-position wp-block-image fbx-instance">
+		<div class="web-bar-position wp-block-image fbx-instance">
 			<a href="/wp-content/uploads/2020/11/biomass-homepage-mockup-1536x909.png" class="fbx-link"><img src="/wp-content/uploads/2020/11/biomass-homepage-mockup-768x454.png" height="211" /></a>
+			<a href="/wp-content/uploads/2020/12/brandywine-oak-homepage.png" class="fbx-link"><img src="/wp-content/uploads/2020/12/brandywine-oak-homepage-1024x606.png" height="211" /></a>
+			<a href="/wp-content/uploads/2020/12/roseriverway-homepage.png" class="fbx-link"><img src="/wp-content/uploads/2020/12/roseriverway-homepage-1024x606.png" height="211" /></a>
 		</div>
 	</div>
 </div>

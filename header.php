@@ -58,7 +58,7 @@ namespace WP_Rig\WP_Rig;
 			<div class="navigation">
 				<li class="menu-list"><a href="/about">ABOUT</a></li>
 				<div class="dropdown-list dropdown">
-					<a href="/magazines" class="red-on-hover">PORTFOLIO</a>
+					<a href="/books" class="red-on-hover">PORTFOLIO</a>
 					<div class="dropdown-content">
 						<a href="/books" class="red-on-hover">BOOKS&ensp;</a>
 						<a href="/magazines" class="red-on-hover">MAGAZINES&ensp;</a>
@@ -78,7 +78,7 @@ namespace WP_Rig\WP_Rig;
 			<div class="title">
 				<a href="/">
 					<span class="melodeestephens"><?php bloginfo( 'name' ); ?>&ensp;|&ensp;</span>
-					<?php $tagline = get_bloginfo( 'description', 'display'); ?>
+					<?php $tagline = get_bloginfo( 'description', 'display' ); ?>
 					<span class="graphicdesign"><?php echo esc_html( $tagline ); ?> </span>
 				</a>
 				</div></div>

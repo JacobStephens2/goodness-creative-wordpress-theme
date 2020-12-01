@@ -8,13 +8,15 @@
  */
 namespace WP_Rig\WP_Rig;
 get_header();
+wp_rig()->print_styles( 'wp-rig-content', 'wp-rig-portfolio' );
 ?>
 
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
 		<div class="image-position">
-			<a href="/wheaton-academy-book"><img class="pointer" src="/wp-content/uploads/2020/11/wa-historybook-cover-straight-on-300x248.png" height="211" /></a>
-			<a href="/sourlands"><img class="pointer" style="margin-left: 30px;" src="/wp-content/uploads/2020/12/sourlands-cover.png" height="211" /></a>
+			<img id="wa-cover-preview" onclick="showWACover()" src="/wp-content/uploads/2020/12/sourlands-cover.png" height="211" />
+			<img id="wa-spread1-preview" onclick="showWASpread1()" src="/wp-content/uploads/2020/12/spread-base-contents-mockup-720x460.png" height="211" />
+			<img id="wa-spread2-preview" onclick="showWASpread2()" src="/wp-content/uploads/2020/12/spread-sourlands-34-35-720x460.png" height="211" />
 		</div>
 	</div>
 </div>

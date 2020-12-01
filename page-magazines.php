@@ -16,6 +16,7 @@ get_header();
 	<div class="sample-frame" style="padding-left: 0px;">
 		<div class="image-position">
 			<a href="/wheaton-academy"><img src="/wp-content/uploads/2020/11/wheaton-academy-cover.png" height="211" /></a>
+			<a href="/chester-county-life"><img src="/wp-content/uploads/2020/12/ccl-so20-cover-910x1024.png" height="211" /></a>
 		</div>
 	</div>
 </div>

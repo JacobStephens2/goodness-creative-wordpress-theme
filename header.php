@@ -58,7 +58,7 @@ namespace WP_Rig\WP_Rig;
 			<div class="navigation">
 				<li class="menu-list"><a href="/about">ABOUT</a></li>
 				<div class="dropdown-list dropdown">
-					<a href="/books" class="red-on-hover">PORTFOLIO</a>
+					<a href="/portfolio" class="red-on-hover">PORTFOLIO</a>
 					<div class="dropdown-content">
 						<a href="/books" class="red-on-hover">BOOKS&ensp;</a>
 						<a href="/magazines" class="red-on-hover">MAGAZINES&ensp;</a>

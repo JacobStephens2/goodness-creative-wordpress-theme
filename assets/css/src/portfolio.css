@@ -18,3 +18,29 @@
 #wa-spread2-preview:hover {
 	cursor: pointer;
 }
+.entry-content,
+.entry-content > *,
+.entry-summary,
+.entry-summary > *,
+.page-content,
+.page-content > * {
+	max-width: 100%;
+}
+
+.entry-content,
+.entry-content > *,
+.entry-summary,
+.entry-summary > *,
+.page-content,
+.page-content > * {
+	max-width: 100%;
+}
+
+.entry-content,
+.entry-content > *,
+.entry-summary,
+.entry-summary > *,
+.page-content,
+.page-content > * {
+	max-width: 100%;
+}

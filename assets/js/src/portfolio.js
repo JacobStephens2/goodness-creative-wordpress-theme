@@ -20,19 +20,40 @@ function showWASpread2() {
 	document.getElementById("wa-spread2").style.display = "inline";
 }
 
-var images = document.querySelector('.images');
+var agnes = document.getElementById('agnes');
+var agnesImage = document.getElementById('agnes-image');
+var logos = document.getElementById('logos');
 
-images.addEventListener('mouseover', darkenOver);
-images.addEventListener('mouseout', darkenOut);
+agnes.addEventListener('mouseenter', agnesDarkenOver);
+agnes.addEventListener('mouseleave', agnesDarkenOut);
 
-function darkenOver(e) {
-	var x = document.getElementById('logos');
-	e.target.classList.toggle('darken');
-	x.innerHTML = "Logos";
+function agnesDarkenOver() {
+	agnesImage.classList.toggle('darken');
+	agnesImage.classList.toggle('lighten');
+	logos.classList.toggle('no-text');
 }
-function darkenOut(e) {
-	var x = document.getElementById('logos');
-	e.target.classList.toggle('darken');
-	x.innerHTML = "";
 
+function agnesDarkenOut() {
+	agnesImage.classList.toggle('darken');
+	agnesImage.classList.toggle('lighten');
+	logos.classList.toggle('no-text');
+}
+
+var biomass = document.getElementById('biomass');
+var biomassImage = document.getElementById('biomass-image');
+var presentations = document.getElementById('presentations');
+
+biomass.addEventListener('mouseenter', biomassDarkenOver);
+biomass.addEventListener('mouseleave', biomassDarkenOut);
+
+function biomassDarkenOver() {
+	biomassImage.classList.toggle('darken');
+	biomassImage.classList.toggle('lighten');
+	presentations.classList.toggle('no-text');
+}
+
+function biomassDarkenOut() {
+	biomassImage.classList.toggle('darken');
+	biomassImage.classList.toggle('lighten');
+	presentations.classList.toggle('no-text');
 }

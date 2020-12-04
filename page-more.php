@@ -15,13 +15,26 @@ get_header();
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
 		<div class="image-position">
-			<a href="/biomass-controls"><img class="darken" src="/wp-content/uploads/2020/12/Presentation_Jun18rev_Part1-1024x597.png" height="211" /></a>
-			<a href="/agnes-irwin">
-				<div class="text-container">
-					<img class="images" src="/wp-content/uploads/2020/12/1869MinutesOfGiving_SQtag-mockup-300x300.png" height="211" />
-					<h1 id="logos" class="centered"></h1>
+			<!-- <a href="/biomass-controls"> -->
+				<div class="box wp-block-image fbx-instance" id="biomass">
+					<a href="/wp-content/uploads/2020/12/Presentation_Jun18rev_Part1.png" class="fbx-link">
+						<img id="biomass-image" class="lighten" src="/wp-content/uploads/2020/12/Presentation_Jun18rev_Part1-1024x597.png" height="211" />
+						<div class="text">
+							<h1 id="presentations" class="white-text no-text">Presentations</h1>
+						</div>
+					</a>
 				</div>
-			</a>
+			<!-- </a>
+			<a href="/agnes-irwin"> -->
+				<div class="box wp-block-image fbx-instance" id="agnes">
+					<a href="/wp-content/uploads/2020/12/1869MinutesOfGiving_SQtag-mockup.png" class="fbx-link">
+						<img id="agnes-image" class="lighten" src="/wp-content/uploads/2020/12/1869MinutesOfGiving_SQtag-mockup-300x300.png" height="211" />
+						<div class="text">
+							<h1 id="logos" class="white-text no-text">Logos</h1>
+						</div>
+					</a>
+				</div>
+			<!-- </a> -->
 		</div>
 	</div>
 </div>
@@ -36,4 +49,5 @@ get_header();
 		}
 		?>
 	</div>
+
 </main>

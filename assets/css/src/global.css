@@ -1154,3 +1154,12 @@ p {
 .no-text {
 	display: none;
 }
+
+.bar-center {
+	display: block;
+	margin: auto;
+}
+
+.bar-align {
+	margin-left: 280px;
+}

@@ -22,8 +22,10 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 <div class="bar">
 	<div class="sample-frame" style="padding-left: 0px;">
-		<div class="image-position">
-			<img src="/wp-content/uploads/2020/11/a-z-wide-page-spread-narrow-970x211-ratio-1024x223.png" height="211" />
+		<div class="image-position wp-block-image fbx-instance">
+			<a href="/wp-content/uploads/2020/12/a-z-wide-page-spread-1536x989.png" class="fbx-link">
+				<img style="margin-left: 100px;" src="/wp-content/uploads/2020/12/a-z-wide-page-spread-crop2-768x249.png" height="211" />
+			</a>
 		</div>
 	</div>
 </div>

@@ -11,8 +11,10 @@ get_header();
 ?>
 			<div class="bar">
 				<div class="cover-frame">
-					<div class="image-position">
-						<img style="background-color: white;" src="/wp-content/uploads/2020/11/ValentinesBoxWrapProof-background-1024x254.png" height="211" />
+					<div class="image-position wp-block-image fbx-instance">
+						<a href="/wp-content/uploads/2020/12/ValentinesBoxWrapProof-1-1024x819.png" class="fbx-link">
+							<img class="bar-align" src="/wp-content/uploads/2020/12/ValentinesBoxWrapProof-1-300x240.png" height="211" />
+						</a>
 					</div>
 				</div>
 			</div>

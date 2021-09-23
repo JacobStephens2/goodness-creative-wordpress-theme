@@ -14,8 +14,10 @@ get_header();
 
 <div class="bar">
 	<div class="frame" style="padding-left: 0px;">
-		<div class="about-image-position">
-			<img class="bar-spread" src="/wp-content/uploads/2020/11/spread-landMatters-angled2-narrow-768x249.png" height="211" />
+		<div class="about-image-position wp-block-image fbx-instance">
+			<a href="/wp-content/uploads/2020/12/spread-landMatters-angled2-1536x989.png" class="fbx-link">
+				<img class="bar-spread" src="/wp-content/uploads/2020/11/spread-landMatters-angled2-narrow-768x249.png" height="211" />
+			</a>
 			<img class="melodee-image" src="/wp-content/uploads/2020/11/Melodee-1-5-ratio-bw.jpg" height="211" />
 			<img class="jacob-image" src="/wp-content/uploads/2020/11/Jacob-smiling-1-1.5-zoom-bw.jpg" height="211" />
 		</div>
